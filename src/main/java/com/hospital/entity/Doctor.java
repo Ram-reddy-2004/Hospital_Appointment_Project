@@ -27,10 +27,10 @@ public class Doctor {
     private String speciality;
 
     @NotNull(message = "Please select a disease")
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "disease_id", nullable = false)
     private Disease disease;
-
+    
     @NotBlank(message = "Email is required")
     @Email(message = "Enter a valid email")
     @Column(nullable = false, unique = true, length = 150)
