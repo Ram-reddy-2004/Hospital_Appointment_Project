@@ -56,6 +56,9 @@ mvn spring-boot:run
 
 Then open **http://localhost:8080**.
 
+
+Live DEMO : **https://hospital-appointment-system-mhls.onrender.comhttps://hospital-appointment-system-mhls.onrender.com**
+
 ## REST API summary
 
 | Method | Path                              | Auth        | Purpose |
